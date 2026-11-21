@@ -238,7 +238,7 @@
 
 
 <!-- SECCIÓN: ¿POR QUÉ ELEGIR CLEANPRO? -->
-<section id="porque-elegirnos" class="bg-[#FAF8F2] px-5 pt-6 pb-16 sm:px-8 sm:pt-8 lg:pb-20">
+<section id="nosotros" class="bg-[#FAF8F2] px-5 pt-6 pb-16 sm:px-8 sm:pt-8 lg:pb-20">
 
     <div class="mx-auto max-w-7xl">
 
@@ -514,8 +514,7 @@
             <div class="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-3">
 
                 <!-- EFECTIVO -->
-                <div class="flex items-center justify-center gap-4">
-
+                <div class="flex items-center justify-start gap-4 w-56 mx-auto">
                     <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-[#718C78]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                             <rect x="2" y="6" width="20" height="12" rx="2"/>
@@ -532,7 +531,7 @@
                 </div>
 
                 <!-- TARJETA -->
-                <div class="flex items-center justify-center gap-4">
+               <div class="flex items-center justify-start gap-4 w-56 mx-auto">
 
                     <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-[#718C78]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -549,7 +548,7 @@
                 </div>
 
                 <!-- TRANSFERENCIA -->
-                <div class="flex items-center justify-center gap-4">
+                <div class="flex items-center justify-start gap-4 w-56 mx-auto">
 
                     <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-[#718C78]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -575,11 +574,587 @@
 
 
 
+<section id="contacto" class="bg-[#FAF8F2] px-6 py-16 md:py-20">
+  <div class="mx-auto max-w-7xl">
+
+    <!-- Encabezado -->
+    <div class="mb-10 max-w-2xl">
+      <span class="text-sm font-semibold uppercase tracking-widest text-[#718C78]">
+        Estamos para ayudarte
+      </span>
+
+      <h2 class="mt-3 text-3xl font-bold text-[#343D35] md:text-4xl">
+        Hablemos de lo que necesitas
+      </h2>
+
+      <p class="mt-4 leading-relaxed text-[#5B6470]">
+        Estamos listos para ayudarte a recuperar la limpieza y frescura
+        de tus espacios. Cuéntanos qué necesitas o escríbenos directamente.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+
+      <!-- FORMULARIO -->
+      <div class="rounded-2xl bg-white p-6 shadow-sm md:p-8 lg:col-span-2">
+
+        <h3 class="mb-2 text-xl font-semibold text-[#343D35]">
+          Solicita tu cotización
+        </h3>
+
+        <p class="mb-7 text-sm text-[#5B6470]">
+          Completa los datos que desees compartir. La ubicación y los
+          servicios son opcionales.
+        </p>
+
+        <form id="formulario-contacto" class="space-y-7">
+
+          <!-- DATOS PERSONALES -->
+          <div>
+            <h4 class="mb-4 font-semibold text-[#343D35]">
+              Tus datos
+            </h4>
+
+            <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+
+              <div>
+                <label for="nombre" class="mb-2 block text-sm font-medium text-[#343D35]">
+                  Nombre *
+                </label>
+
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  required
+                  placeholder="¿Cómo te llamas?"
+                  class="w-full rounded-lg border border-[#DCE5D9] px-4 py-3 text-sm outline-none transition focus:border-[#718C78] focus:ring-2 focus:ring-[#718C78]/20"
+                >
+              </div>
+
+              <div>
+                <label for="telefono" class="mb-2 block text-sm font-medium text-[#343D35]">
+                  WhatsApp *
+                </label>
+
+                <input
+                  type="tel"
+                  id="telefono"
+                  name="telefono"
+                  required
+                  placeholder="Tu número de contacto"
+                  class="w-full rounded-lg border border-[#DCE5D9] px-4 py-3 text-sm outline-none transition focus:border-[#718C78] focus:ring-2 focus:ring-[#718C78]/20"
+                >
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="correo" class="mb-2 block text-sm font-medium text-[#343D35]">
+                  Correo electrónico
+                </label>
+
+                <input
+                  type="email"
+                  id="correo"
+                  name="correo"
+                  placeholder="tucorreo@ejemplo.com"
+                  class="w-full rounded-lg border border-[#DCE5D9] px-4 py-3 text-sm outline-none transition focus:border-[#718C78] focus:ring-2 focus:ring-[#718C78]/20"
+                >
+
+                <p class="mt-2 text-sm font-medium text-[#718C78]">
+                  ¡Obtén un 10 % de descuento en tu primer servicio
+                  al compartir tu correo!
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="border-t border-[#EDF1E9]"></div>
+
+          <!-- UBICACIÓN -->
+          <div>
+            <h4 class="mb-2 font-semibold text-[#343D35]">
+              ¿Dónde necesitas el servicio?
+            </h4>
+
+            <p class="mb-4 text-sm text-[#5B6470]">
+              Esta información nos ayuda a conocer la ubicación del servicio.
+            </p>
+
+            <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+
+              <div>
+                <label for="municipio" class="mb-2 block text-sm font-medium text-[#343D35]">
+                  Municipio
+                </label>
+
+                <select
+                  id="municipio"
+                  name="municipio"
+                  class="w-full rounded-lg border border-[#DCE5D9] bg-white px-4 py-3 text-sm outline-none focus:border-[#718C78] focus:ring-2 focus:ring-[#718C78]/20"
+                >
+                  <option value="">Selecciona un municipio</option>
+                  <option>Medellín</option>
+                  <option>Bello</option>
+                  <option>Copacabana</option>
+                  <option>Girardota</option>
+                  <option>Barbosa</option>
+                  <option>Envigado</option>
+                  <option>Itagüí</option>
+                  <option>Sabaneta</option>
+                  <option>La Estrella</option>
+                  <option>Caldas</option>
+                  <option>Guarne</option>
+                  <option>Rionegro</option>
+                </select>
+              </div>
+
+              <div id="contenedor-zona" class="hidden">
+
+                <label
+                  id="etiqueta-zona"
+                  for="zona"
+                  class="mb-2 block text-sm font-medium text-[#343D35]"
+                >
+                  Comuna o corregimiento
+                </label>
+
+                <select
+                  id="zona"
+                  name="zona"
+                  class="hidden w-full rounded-lg border border-[#DCE5D9] bg-white px-4 py-3 text-sm outline-none focus:border-[#718C78] focus:ring-2 focus:ring-[#718C78]/20"
+                >
+                  <option value="">Selecciona una zona</option>
+                </select>
+
+                <input
+                  type="text"
+                  id="barrio"
+                  name="barrio"
+                  list="lista-barrios"
+                  placeholder="Escribe o selecciona tu barrio"
+                  class="hidden w-full rounded-lg border border-[#DCE5D9] px-4 py-3 text-sm outline-none focus:border-[#718C78] focus:ring-2 focus:ring-[#718C78]/20"
+                >
+
+                <datalist id="lista-barrios"></datalist>
+
+                <p id="ayuda-zona" class="mt-2 text-xs text-[#5B6470]"></p>
+
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="direccion" class="mb-2 block text-sm font-medium text-[#343D35]">
+                  Dirección
+                </label>
+
+                <input
+                  type="text"
+                  id="direccion"
+                  name="direccion"
+                  placeholder="Calle, carrera, número o dirección"
+                  class="w-full rounded-lg border border-[#DCE5D9] px-4 py-3 text-sm outline-none focus:border-[#718C78] focus:ring-2 focus:ring-[#718C78]/20"
+                >
+              </div>
+
+            </div>
+          </div>
+
+          <div class="border-t border-[#EDF1E9]"></div>
+
+          <!-- SERVICIOS -->
+          <div>
+            <h4 class="mb-2 font-semibold text-[#343D35]">
+              ¿Qué servicios necesitas?
+            </h4>
+
+            <p class="mb-5 text-sm text-[#5B6470]">
+              Puedes seleccionar uno o varios servicios. Esta sección es opcional.
+            </p>
+
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+
+              <!-- MUEBLES -->
+              <div class="rounded-xl border border-[#DCE5D9] p-4">
+                <label class="flex cursor-pointer items-center gap-3">
+                  <input
+                    type="checkbox"
+                    name="servicios"
+                    value="Muebles"
+                    data-cantidad="cantidad-muebles"
+                    class="h-4 w-4 accent-[#718C78]"
+                  >
+
+                  <span class="font-medium text-[#343D35]">
+                    Limpieza de muebles
+                  </span>
+                </label>
+
+                <div id="cantidad-muebles" class="mt-4 hidden">
+                  <label for="numero-muebles" class="mb-2 block text-sm text-[#5B6470]">
+                    ¿Cuántos muebles?
+                  </label>
+
+                  <input
+                    type="number"
+                    id="numero-muebles"
+                    min="1"
+                    step="1"
+                    placeholder="Cantidad"
+                    class="w-full rounded-lg border border-[#DCE5D9] px-3 py-2 text-sm outline-none focus:border-[#718C78]"
+                  >
+                </div>
+              </div>
+
+              <!-- COLCHONES -->
+              <div class="rounded-xl border border-[#DCE5D9] p-4">
+                <label class="flex cursor-pointer items-center gap-3">
+                  <input
+                    type="checkbox"
+                    name="servicios"
+                    value="Colchones"
+                    data-cantidad="cantidad-colchones"
+                    class="h-4 w-4 accent-[#718C78]"
+                  >
+
+                  <span class="font-medium text-[#343D35]">
+                    Limpieza de colchones
+                  </span>
+                </label>
+
+                <div id="cantidad-colchones" class="mt-4 hidden">
+                  <label for="numero-colchones" class="mb-2 block text-sm text-[#5B6470]">
+                    ¿Cuántos colchones?
+                  </label>
+
+                  <input
+                    type="number"
+                    id="numero-colchones"
+                    min="1"
+                    step="1"
+                    placeholder="Cantidad"
+                    class="w-full rounded-lg border border-[#DCE5D9] px-3 py-2 text-sm outline-none focus:border-[#718C78]"
+                  >
+                </div>
+              </div>
+
+              <!-- TAPETES -->
+              <div class="rounded-xl border border-[#DCE5D9] p-4">
+                <label class="flex cursor-pointer items-center gap-3">
+                  <input
+                    type="checkbox"
+                    name="servicios"
+                    value="Tapetes"
+                    data-cantidad="cantidad-tapetes"
+                    class="h-4 w-4 accent-[#718C78]"
+                  >
+
+                  <span class="font-medium text-[#343D35]">
+                    Limpieza de tapetes
+                  </span>
+                </label>
+
+                <div id="cantidad-tapetes" class="mt-4 hidden">
+                  <label for="numero-tapetes" class="mb-2 block text-sm text-[#5B6470]">
+                    ¿Cuántos tapetes?
+                  </label>
+
+                  <input
+                    type="number"
+                    id="numero-tapetes"
+                    min="1"
+                    step="1"
+                    placeholder="Cantidad"
+                    class="w-full rounded-lg border border-[#DCE5D9] px-3 py-2 text-sm outline-none focus:border-[#718C78]"
+                  >
+                </div>
+              </div>
+
+              <!-- VEHÍCULOS -->
+              <div class="rounded-xl border border-[#DCE5D9] p-4">
+                <label class="flex cursor-pointer items-center gap-3">
+                  <input
+                    type="checkbox"
+                    name="servicios"
+                    value="Vehículos"
+                    data-cantidad="cantidad-vehiculos"
+                    class="h-4 w-4 accent-[#718C78]"
+                  >
+
+                  <span class="font-medium text-[#343D35]">
+                    Limpieza de vehículos
+                  </span>
+                </label>
+
+                <div id="cantidad-vehiculos" class="mt-4 hidden">
+                  <label for="numero-vehiculos" class="mb-2 block text-sm text-[#5B6470]">
+                    ¿Cuántos vehículos?
+                  </label>
+
+                  <input
+                    type="number"
+                    id="numero-vehiculos"
+                    min="1"
+                    step="1"
+                    placeholder="Cantidad"
+                    class="w-full rounded-lg border border-[#DCE5D9] px-3 py-2 text-sm outline-none focus:border-[#718C78]"
+                  >
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="border-t border-[#EDF1E9]"></div>
+
+          <!-- AUTORIZACIÓN DE DATOS -->
+          <div>
+            <label class="flex cursor-pointer items-start gap-3 text-sm text-[#5B6470]">
+              <input
+                type="checkbox"
+                id="autorizacion-datos"
+                required
+                class="mt-1 h-4 w-4 shrink-0 accent-[#718C78]"
+              >
+
+              <span>
+                Autorizo el tratamiento de mis datos personales de acuerdo
+                con la
+                <a
+                  href="#politica-datos"
+                  class="font-semibold text-[#718C78] underline"
+                >
+                  política de tratamiento de datos personales
+                </a>
+                de CleanPro.
+              </span>
+            </label>
+
+            <p class="mt-2 text-xs text-[#5B6470]">
+              Enlace provisional. Se actualizará cuando publiques la política.
+            </p>
+          </div>
+
+          <!-- ENVÍO -->
+          <button
+            type="submit"
+            class="w-full rounded-full bg-[#718C78] px-6 py-4 font-semibold text-white transition hover:bg-[#5D7764] focus:outline-none focus:ring-2 focus:ring-[#718C78] focus:ring-offset-2"
+          >
+            Enviar solicitud por WhatsApp
+          </button>
+
+          <p class="text-center text-xs text-[#5B6470]">
+            Los campos marcados con * son necesarios para enviar la solicitud.
+          </p>
+
+        </form>
+      </div>
+
+      <!-- CONTACTO DIRECTO -->
+      <aside class="space-y-5">
+
+        <div class="rounded-2xl bg-[#EDF1E9] p-6 md:p-7">
+          <h3 class="text-xl font-semibold text-[#343D35]">
+            ¿Prefieres hablar directamente?
+          </h3>
+
+          <p class="mt-3 text-sm leading-relaxed text-[#5B6470]">
+            Estamos disponibles para resolver tus dudas y ayudarte
+            a encontrar el servicio que necesitas.
+          </p>
+
+          <a
+            href="https://wa.me/573000000000?text=Hola%20CleanPro%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-[#718C78] px-5 py-3 font-semibold text-white transition hover:bg-[#5D7764]"
+          >
+            Hablar por WhatsApp
+          </a>
+        </div>
+
+        <div class="rounded-2xl bg-white p-6 shadow-sm">
+          <div class="space-y-5">
+
+            <div>
+              <p class="text-sm font-semibold text-[#343D35]">
+                Llámanos
+              </p>
+
+              <a href="tel:+573000000000" class="mt-1 block text-sm text-[#718C78]">
+                +57 300 000 0000
+              </a>
+            </div>
+
+            <div class="border-t border-[#EDF1E9]"></div>
+
+            <div>
+              <p class="text-sm font-semibold text-[#343D35]">
+                Escríbenos
+              </p>
+
+              <a href="mailto:contacto@cleanpro.com" class="mt-1 block break-all text-sm text-[#718C78]">
+                contacto@cleanpro.com
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+
+
 </main>
 
-    <footer>
-        <!-- Información final y redes sociales -->
-    </footer>
+    
+<footer class="bg-[#343D35] text-[#FAF8F2]">
+
+    <div class="mx-auto max-w-7xl px-6 py-12">
+
+        <!-- Contenido principal -->
+        <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+
+            <!-- Identidad -->
+            <div>
+                <a href="#inicio"
+                   class="mb-4 inline-block text-3xl font-bold tracking-wide">
+                    CleanPro
+                </a>
+
+                <p class="max-w-xs text-sm leading-7 text-[#DCE5D9]">
+                    Limpieza profesional de tapicería para hogares
+                    y vehículos. Recuperamos la frescura de tus espacios.
+                </p>
+            </div>
+
+            <!-- Navegación -->
+            <div>
+                <h3 class="mb-5 text-lg font-semibold">
+                    Navegación
+                </h3>
+
+                <ul class="space-y-3 text-sm text-[#DCE5D9]">
+
+                    <li>
+                        <a href="#inicio" class="transition-colors hover:text-white">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#servicios" class="transition-colors hover:text-white">
+                            Nuestros servicios
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#nosotros" class="transition-colors hover:text-white">
+                            ¿Por qué elegirnos?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contacto" class="transition-colors hover:text-white">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Servicios -->
+            <div>
+                <h3 class="mb-5 text-lg font-semibold">
+                    Nuestros servicios
+                </h3>
+
+                <ul class="space-y-3 text-sm text-[#DCE5D9]">
+
+                    <li>
+                        <a href="#servicios" class="transition-colors hover:text-white">
+                            Limpieza de muebles
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#servicios" class="transition-colors hover:text-white">
+                            Limpieza de colchones
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#servicios" class="transition-colors hover:text-white">
+                            Limpieza de tapetes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#servicios" class="transition-colors hover:text-white">
+                            Limpieza de vehículos
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Información de contacto -->
+        <div class="mt-12 border-t border-[#718C78]/40 pt-8">
+
+            <h3 class="mb-5 text-lg font-semibold">
+                Contáctanos
+            </h3>
+
+            <div class="flex flex-col gap-4 text-sm text-[#DCE5D9] sm:flex-row sm:flex-wrap sm:gap-8">
+
+                <a href="tel:+573000000000"
+                   class="transition-colors hover:text-white">
+                    Teléfono
+                </a>
+
+                <a href="https://wa.me/573000000000"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="transition-colors hover:text-white">
+                    WhatsApp
+                </a>
+
+                <a href="mailto:contacto@cleanpro.com"
+                   class="transition-colors hover:text-white">
+                    Correo electrónico
+                </a>
+
+                <span>
+                    Medellín y Valle de Aburrá
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Franja inferior -->
+        <div class="mt-10 flex flex-col items-center justify-between gap-4 border-t border-[#718C78]/40 pt-6 text-center text-xs text-[#DCE5D9] sm:flex-row sm:text-left">
+
+            <p>
+                © 2026 CleanPro. Todos los derechos reservados.
+            </p>
+
+            <a href="#politica-datos"
+               class="transition-colors hover:text-white">
+                Política de tratamiento de datos
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
 
     <script type="module" src="/src/js/main.js"></script>
 
